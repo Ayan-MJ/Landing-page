@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #b3b3b3;
+    color: rgb(5, 4, 4);
+    padding: 20px;
+  }
+  
+  main {
+    padding: 50px;
+    color: #f3e7e7;
+  }
+  
+  button {
+    background-color: #ff8533;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #7b4704;
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* Base styles already in your file */
+
+/* For devices with a max width of 600px (e.g., phones) */
+@media (max-width: 600px) {
+  header, main, footer {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+  
